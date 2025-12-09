@@ -9,7 +9,6 @@ import Footer from "./components/footer"
 import SignUp from "./Signup"
 import Searchbox from "./components/Searchbox"
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { useEffect } from "react"
 
 function App() {
   const router = createBrowserRouter([

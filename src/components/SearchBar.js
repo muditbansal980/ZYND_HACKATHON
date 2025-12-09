@@ -1,5 +1,5 @@
 import searchicon from "../assests/search-icon.png";
-import SearchBox from "./Searchbox";
+// import SearchBox from "./Searchbox";
 export default function SearchBar() {
     return (
         
