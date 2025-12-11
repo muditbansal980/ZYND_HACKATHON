@@ -1,18 +1,18 @@
 import Instagram from "../assests/instagram.png";
 import Linkedin from "../assests/linkedin.png";
 import Twitter from "../assests/twitter.png";
-
+import { NavLink } from "react-router-dom";
 export default function Footer() {
     return (
         <div className="footer bg-[oklch(0.21_0.06_258.54)] grid grid-cols-3 grid-rows-2 mt-[40px] p-[30px] w-[100%] ">
             <div className="text-[white]">
                 <h className="font-bold">Let us help you</h>    
                 <ul>
-                    <li className="hover:cursor-pointer">Home</li>
-                    <li className="hover:cursor-pointer">Check Eligibility</li>
-                    <li className="hover:cursor-pointer">Benefits</li>
-                    <li className="hover:cursor-pointer">My Applications</li>
-                    <li className="hover:cursor-pointer">Profile</li>
+                    <NavLink to="/Home"><li className="hover:cursor-pointer">Home</li></NavLink>
+                    <NavLink to="/CheckEligibility"><li className="hover:cursor-pointer">Check Eligibility</li></NavLink>
+                    <NavLink to="/Benefits"><li className="hover:cursor-pointer">Benefits</li></NavLink>
+                    <NavLink to="/MyApplications"><li className="hover:cursor-pointer">My Applications</li></NavLink>
+                    <NavLink to="/Profile"><li className="hover:cursor-pointer">Profile</li></NavLink>
                 </ul>
             </div>
             <div className="text-[white]">

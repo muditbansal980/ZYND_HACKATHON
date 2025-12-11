@@ -7,7 +7,10 @@ import Profile from "./components/Profile"
 import InterpretLaw from "./components/InterpretLaw"
 import Footer from "./components/footer"
 import SignUp from "./Signup"
-import Searchbox from "./components/Searchbox"
+import Onboarding from "./components2/onboarding"
+import Login from "./components2/Login";
+
+// import Searchbox from "./components/Searchbox"
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 function App() {
@@ -37,13 +40,21 @@ function App() {
       element: <><Navbar /><InterpretLaw /><Footer /></>
     },
     {
-      path: "/",
+      path: "/SignUp",
       element: <> <SignUp /></>
+    },
+    {
+      path: "/",
+      element: <> <Onboarding /></>
+    },
+    {
+      path:"/Login",
+      element: <> <Login /></>
     }
   ])
   return (
     <div className="App bg-linear-to-r from-gray-800 via-blue-700 to-gray-900 max-[2000px]:w-[100vw] max-w-[2000px] h-[100vh] overflow-x-hidden flex flex-col jusitfy-center items-center">
-      <Searchbox />
+      {/* <Searchbox /> */}
 
       <RouterProvider router={router} />
     </div>
