@@ -1,4 +1,4 @@
-import Navbar from "./navbar";
+// import Navbar from "./navbar";
 import Batchicon from "../assests/batch-processing.png";
 import ZigZag from "../assests/line-ascendant-graphic-of-zigzag-arrow.png";
 import Applications from "../assests/resume.png";

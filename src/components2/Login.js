@@ -1,9 +1,9 @@
 
 import { NavLink } from "react-router-dom";
-import { useState } from "react";
+// import { useState } from "react";
 
 export default function SignUp() {
-    const [Display, setDisplay] = useState("");
+    // const [Display, setDisplay] = useState("");
     return (
         <div className="flex flex-col justify-center items-center h-[100vh] w-[100vw] gap-[20px] ">
             <div className="flex flex-col justify-center items-center gap-[20px] bg-[purple] text-[white] pb-[20px] rounded-[10px]">
